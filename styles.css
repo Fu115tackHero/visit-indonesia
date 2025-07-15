@@ -11,6 +11,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    margin: auto;
 }
 
 
@@ -34,21 +35,32 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
 }
 
 .title1 {
     margin: 0 0 30px 0;
     padding: 30px 0 0 0;
+    font-size: 30px;
 }
 
 #content {
     background-color: #F1FAEE;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
 }
 
 #activities {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
+}
+
+.activity {
+    width: 350px;
+    margin: 0px 70px;
 }
 
 .img-of-activites {
@@ -59,4 +71,31 @@ h2 {
 
 #person {
     width: 200px;
+}
+
+#guider {
+    width: 480px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    text-align: center;
+    color: #2b2839;
+    background-color: #A8DADC;
+    border-bottom: 6px solid #1D3557;
+    font-size: 20px;
+}
+
+#guide1 {
+    font-family: "Lora", serif;
+}
+
+#quote {
+    font-family: "Lora", serif;
+    font-style: italic;
+}
+
+#name {
+    font-family: "Lora", serif;
+    font-weight: 700;
 }
